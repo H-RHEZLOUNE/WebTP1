@@ -1,40 +1,47 @@
 .titre1{
-    font-size: 15px;
-    color: green;
-}
-
-.titre2{
-    font-size: 22px;
+    font-size: 25px;
+    text-align: center;
     color: red;
-}
-
-.titre3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
 }
 
-.titre4{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 400;
-}
-
-.carre{
+.carre1{
     background-color: yellow;
     width: 200px;
     height: 200px;
-    margin-bottom: 10px;
 }
 
-.rectangle{
+.carre2{
     background-color: red;
     width: 200px;
-    height: 100px;
-    margin-bottom: 10px;
+    height: 200px;
 }
 
-.circle{
+.carre3{
     background-color: green;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+}
+
+.divmaman{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+.divmaman1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.divmaman2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.divmaman3{
+    display: flex;
+    flex-direction: column-reverse;
 }
