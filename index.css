@@ -1,20 +1,40 @@
-h3
-{
-    font-size: 4em;
-    margin: 5;
-    padding: 2;
-
-    font-style: italic;
-    color: blue;
+.titre1{
+    font-size: 15px;
+    color: green;
 }
 
+.titre2{
+    font-size: 22px;
+    color: red;
+}
 
-h1
-{
-    font-size: 2em;
-    margin: 5em;
-    padding: 2em;
+.titre3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
 
-    font-style: oblique;
-    color: blueviolet;
+.titre4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+
+.carre{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.rectangle{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.circle{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
